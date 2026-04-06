@@ -1,0 +1,15 @@
+# Основное
+streamlit>=1.28.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Графики
+matplotlib>=3.7.0
+
+# ML (опционально - будут установлены если возможно)
+gymnasium>=0.29.0
+stable-baselines3>=2.1.0; sys_platform != "linux"
+torch>=2.0.0; sys_platform != "linux"
+
+# MT5 (только Windows)
+MetaTrader5>=5.0.45; sys_platform == "win32"
